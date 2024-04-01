@@ -1,9 +1,9 @@
 const { Colors } = require("discord.js");
 
 const defaultSettings = {
-  TOKEN: process.env.TOKEN || "MTIxODEzNjE3MjE3NDUxMjIwOQ.G4c3mg.jKc7yo7gRnpYkicAKcWWHkK7WlwJlm4M9W1WK8",
+  TOKEN: process.env.TOKEN || "Token",
   PREFIX: process.env.PREFIX || "!",
-  mongodb: process.env.MONGO_URL || "mongodb+srv://egetoremen:YBvSfDGbf9RsYMat@muzik-bot.if7v3di.mongodb.net/",
+  mongodb: process.env.MONGO_URL || "Mongo_url",
 };
 
 const embedSettings = {
